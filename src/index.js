@@ -1,3 +1,8 @@
-import greeting from './greet' 
+import React from 'react';
+import ReactDOM from 'react-dom';
+import 'core-js/stable';
+import 'regenerator-runtime/runtime';
+import App from './App';
+import './style.css';
 
-console.log(greeting);
+ReactDOM.render(<App />, document.getElementById('app'));
