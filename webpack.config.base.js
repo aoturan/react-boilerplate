@@ -42,6 +42,9 @@ module.exports = {
       },
     ],
   },
+  resolve: {
+    extensions: ['.js', '.jsx', '.scss']
+  },
   plugins: [
     new HtmlWebpackPlugin({
       template: './src/index.html',
